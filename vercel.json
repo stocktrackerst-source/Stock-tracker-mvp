@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm install && npm run build",
+  "installCommand": "npm install && npm rebuild esbuild rollup || true",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "nodeVersion": "20.x",
+  "buildEnv": {
+    "ROLLUP_SKIP_NODE_PLATFORM_CHECK": "true",
+    "ESBUILD_BINARY_PATH": "node_modules/esbuild/bin/esbuild"
+  }
+}
