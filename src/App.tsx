@@ -20,7 +20,8 @@ import { DispatchForm, DispatchFormData } from "./components/DispatchForm";
 import { AdminRecordTypeSelector } from "./components/AdminRecordTypeSelector";
 import { ResponsiveAdminPanel } from "./components/ResponsiveAdminPanel";
 import { ItemDetailsPopup } from "./components/ItemDetailsPopup";
-import { Toaster, toast } from "sonner@2.0.3";
+import { Toaster } from "sonner";
+
 
 // ---------------- Types ----------------
 type Screen =
