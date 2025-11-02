@@ -53,7 +53,9 @@
             "vite": "6.3.5"
       },
       "scripts": {
-            "dev": "vite",
-            "build": "vite build"
-      }
+  "dev": "vite",
+  "build": "node --max-old-space-size=512 node_modules/vite/bin/vite.js build",
+  "preview": "vite preview",
+  "postinstall": "npm rebuild esbuild rollup"
+}
 }
